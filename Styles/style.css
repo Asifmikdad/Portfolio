@@ -144,4 +144,21 @@ nav ul{
     text-align: left;
     box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
     padding: 10px;
+    gap: 20px;
+}
+
+.footer-container{
+    background-color: #f9e4d5;
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+footer input[type="text"],
+footer input[type="email"] {
+    height: 64px;
+    width: 400px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
 }
